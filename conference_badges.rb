@@ -18,14 +18,15 @@ end
 room_assignments
 end
 
-def conference_badges(attendees)
-  printer = []
+def printer(attendees)
+  batch_badge_creator(attendees)
+  #assign_rooms
+  #puts = []
   #printer.push(#{badges})
- #printer.push(#{room_assignments})
+  #printer.push(#{room_assignments})
   #end
-  puts printer
 end 
-
+#puts x would nil
 #???
 #What is the theory behind solving the  problem this way? What are the nouns/verbs used and which other ways could this be executed/accomplished?
 
