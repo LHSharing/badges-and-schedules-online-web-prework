@@ -19,7 +19,7 @@ room_assignments
 end
 
 def conference_badges(attendees)
-  priner = []
+  printer = []
 puts badges + room_assignments
 end
 
