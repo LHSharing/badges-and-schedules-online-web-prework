@@ -20,7 +20,7 @@ end
 
 def printer(attendees)
   batch_badge_creator(attendees)
-  #assign_rooms
+  assign_rooms(attendees)
   #puts = []
   #printer.push(#{badges})
   #printer.push(#{room_assignments})
