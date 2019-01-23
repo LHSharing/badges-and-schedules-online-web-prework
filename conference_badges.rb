@@ -21,7 +21,7 @@ end
 def conference_badges(attendees)
   printer = []
   printer.push(#{badges})
-  printer.push(#{room_assignments})
+ # printer.push(#{room_assignments})
   end
   puts printer
 end 
