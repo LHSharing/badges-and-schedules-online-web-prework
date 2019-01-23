@@ -19,12 +19,11 @@ room_assignments
 end
 
 def printer(attendees)
-  batch_badge_creator(attendees)
-  assign_rooms(attendees)
-  #puts = []
-  #printer.push(#{badges})
-  #printer.push(#{room_assignments})
-  #end
+    batch_badge_creator(attendees).each do |badge| 
+    puts badge
+  end
+  #assign_rooms(attendees)
+
 end 
 #puts x would nil
 #???
