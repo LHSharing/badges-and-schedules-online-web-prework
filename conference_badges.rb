@@ -19,11 +19,14 @@ room_assignments
 end
 
 def conference_badges(attendees)
-  printer = []
-  printer.push(#{badges},#{room_assignments})
+puts badges + room_assignments
 end
-printer
-end 
+
+#  printer = []
+ # printer.push(#{badges},#{room_assignments})
+#end
+#puts printer
+#end 
 
 #???
 #What is the theory behind solving the  problem this way? What are the nouns/verbs used and which other ways could this be executed/accomplished?
