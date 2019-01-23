@@ -24,7 +24,6 @@ def conference_badges(attendees)
 end
 printer
 end 
-end
 
 #???
 #What is the theory behind solving the  problem this way? What are the nouns/verbs used and which other ways could this be executed/accomplished?
